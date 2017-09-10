@@ -19,9 +19,11 @@ CREATE DATABASE bamazon;
 ...
 ```
 
+```
 2. Then create a Table inside of that database called `products`.
+```
 
-** I used  [bamazon-ddl.sql](./bamazon-ddl.sql) to create the products table:**
+**I used  [bamazon-ddl.sql](./bamazon-ddl.sql) to create the products table:**
 
 ```sql
 CREATE TABLE products (
@@ -32,6 +34,7 @@ price DECIMAL(10,2),
 stock_quantity INT UNSIGNED,
 PRIMARY KEY (item_id));
 ```
+
 ```
 3. The products table should have each of the following columns:
 
@@ -56,15 +59,20 @@ PRIMARY KEY (item_id));
 ```
 5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
 ```
+**[bamazonCustomer.js](bamazonCustomer.js)**
 
-** ![Displaying All The Products](./product_list.png)**
+**Example of the Product List:**
+
+![Displaying All The Products](./product_list.png)
+
 ```
 6. The app should then prompt users with two messages.
 
    * The first should ask them the ID of the product they would like to buy.
    * The second message should ask how many units of the product they would like to buy.
 ```
-** Here is the happy path:**
+
+**Here is the happy path:**
 
 ![Prompt Happy Path](./prompts_happy_path.png)
 
@@ -73,6 +81,7 @@ PRIMARY KEY (item_id));
 
    * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
 ```
+
 **Insufficient Quantity Example:**
 
 ![Prompt Insufficient Quantity](./prompts_insufficient_quantity_path.png)
