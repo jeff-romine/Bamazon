@@ -1,3 +1,11 @@
-use bamazon;
-
-INSERT INTO `products` VALUES (1,'Lightening Cable','Electronics',49.95,10);
+USE bamazon;
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (1,'Lightening Cable','Electronics',49.95,10);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (2,'External DVD Drive','Electronics',40.95,7);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (3,'Steel-Cut Oatmeal','Groceries',4.25,20);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (4,'Almond Coconut Perfect Bars, package of 12','Groceries',22.50,10);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (5,'Swim Buoy','Sporting Goods',29.95,5);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (6,'Tilley Hat','Apparel',79.95,1);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (7,'Arkel Commuter Pannier','Sporting Goods',199.95,3);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (8,'Arkel Shopping Bag Pannier','Sporting Goods',49.95,1);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (9,'Jumper Cables','Automotive',22.95,50);
+INSERT INTO `products` (`item_id`,`product_name`,`department_name`,`price`,`stock_quantity`) VALUES (10,'Rake','Garden',49.95,10);
